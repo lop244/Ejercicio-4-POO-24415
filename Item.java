@@ -5,8 +5,11 @@ public class Item implements Utilizable {
 
     @Override
     public void usar(CombatienteNordico ejecutor, CombatienteNordico objetivo) {
+        System.out.println
+    
         
 }
+
 
 
 
