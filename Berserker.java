@@ -8,3 +8,6 @@ public class Berserker extends Einherjar {
     @Override
     public void tomarTurno(List<CombatienteNordico> enemigos, List<CombatienteNordico> aliados) {
     }
+
+    @Override
+    public String getMensajeInicio()
