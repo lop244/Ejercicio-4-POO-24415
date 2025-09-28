@@ -6,4 +6,10 @@ public abstract class CombatienteNordico {
     protected int poderAtaque;
 
     public CombatienteNordico(String nombre, int puntosDeVida, int poderAtaque) {
+        this.nombre = nombre;
+        this.puntosDeVida = puntosDeVida;
+        this.poderAtaque = poderAtaque;
+    }
+
+
 
