@@ -1,4 +1,4 @@
-public class Habilidad {
+public class Habilidad implements Utilizable {
     private String nombre;
     private String descripcion;
 
@@ -12,6 +12,7 @@ public class Habilidad {
         return this.descripcion;
     }
 }
+
 
 
 
