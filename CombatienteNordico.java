@@ -42,11 +42,8 @@ public abstract class CombatienteNordico {
 
     public abstract void tomarTurno(List<CombatienteNordico> enemigos, List<CombatienteNordico> aliados);
     public abstract String getMensajeInicio();
-    
-
-
-
-    }
+    public abstract String getMensajeDerrota();
+}
 
 
 
