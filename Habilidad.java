@@ -12,14 +12,3 @@ public class Habilidad implements Utilizable {
         return this.descripcion;
     }
 }
-
-
-
-
-
-
-public class Habilidad {
-    private String nombre;
-    private String descripcion;
-    
-}
