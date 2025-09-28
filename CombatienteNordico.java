@@ -30,6 +30,9 @@ public abstract class CombatienteNordico {
         this.puntosDeVida -= daño;
         System.out.println(this.nombre + " recibe " + daño + " puntos de daño.");
         if (!estaVivo()) {
+            System.out.println(this.nombre + " ha sido derrotado.");
+        }
+    }
 
 
     }
