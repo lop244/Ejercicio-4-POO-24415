@@ -11,5 +11,16 @@ public abstract class CombatienteNordico {
         this.poderAtaque = poderAtaque;
     }
 
+    public String getNombre() { return nombre; }
+    public int getPuntosDeVida() { return puntosDeVida; }
+    public int getPoderAtaque() { return poderAtaque; }
+
+    public boolean estaVivo() {
+        return this.puntosDeVida > 0;
+    }
+
+
+
+
 
 
