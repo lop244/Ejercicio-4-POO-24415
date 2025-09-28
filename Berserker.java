@@ -6,4 +6,5 @@ public class Berserker extends Einherjar {
     }
 
     @Override
-    public void tomarTurno
+    public void tomarTurno(List<CombatienteNordico> enemigos, List<CombatienteNordico> aliados) {
+    }
