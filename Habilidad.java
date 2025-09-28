@@ -8,9 +8,11 @@ public class Habilidad {
     }
 
     @Override
-
-    
+    public String getDescripcion() {
+        return this.descripcion;
+    }
 }
+
 
 
 
