@@ -10,9 +10,7 @@ public class Item implements Utilizable {
     }
 
     @Override
-
-
-
-
-
-
+    public String getDescripcion() {
+        return this.descripcion;
+    }
+}
