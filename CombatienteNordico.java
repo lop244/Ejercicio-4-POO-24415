@@ -1,4 +1,3 @@
-import java.util.List;
 
 public abstract class CombatienteNordico {
     protected String nombre;
@@ -17,6 +16,12 @@ public abstract class CombatienteNordico {
 
     public boolean estaVivo() {
         return this.puntosDeVida > 0;
+    }
+
+    public void pasarTurno() {
+        System.out.println(this.nombre + " ha decidido pasar su turno.");
+    }
+
     }
 
 
