@@ -1,3 +1,4 @@
+import java.util.List;
 
 public abstract class CombatienteNordico {
     protected String nombre;
@@ -38,6 +39,9 @@ public abstract class CombatienteNordico {
     public String toString() {
         return this.nombre + " (Vida: " + this.puntosDeVida + ", Ataque: " + this.poderAtaque + ")";
     }
+
+    public abstract void tomarTurno(List<CombatienteNordico> enemigos, List<CombatienteNordico> aliados);
+
 
 
     }
