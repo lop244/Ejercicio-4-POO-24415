@@ -22,6 +22,12 @@ public abstract class CombatienteNordico {
         System.out.println(this.nombre + " ha decidido pasar su turno.");
     }
 
+    public void atacar(CombatienteNordico objetivo) {
+        System.out.println(this.nombre + " ataca a " + objetivo.getNombre() + "!");
+        objetivo.recibirDaño(this.poderAtaque);
+    }
+
+
     }
 
 
