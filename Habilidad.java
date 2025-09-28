@@ -7,7 +7,10 @@ public class Habilidad {
         System.out.println(ejecutor.getNombre() + " usa " + nombre + " sobre " + objetivo.getNombre());
     }
 
+    @Override
+
     
 }
+
 
 
