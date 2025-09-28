@@ -35,7 +35,7 @@ public abstract class CombatienteNordico {
     }
 
     @Override
-    public String toString () {
+    public String toString() {
         
     }
 
