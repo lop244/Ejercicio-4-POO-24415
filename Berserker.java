@@ -6,3 +6,4 @@ public class Berserker extends Einherjar {
     }
 
     @Override
+    public void tomarTurno
