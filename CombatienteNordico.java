@@ -26,6 +26,9 @@ public abstract class CombatienteNordico {
         System.out.println(this.nombre + " ataca a " + objetivo.getNombre() + "!");
         objetivo.recibirDaño(this.poderAtaque);
     }
+    public void recibirDaño(int daño) {
+        this.puntosDeVida -= daño;
+
 
 
     }
