@@ -1,5 +1,5 @@
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Einherjar extends CombatienteNordico {
     protected List<Item> inventario;
@@ -10,6 +10,11 @@ public abstract class Einherjar extends CombatienteNordico {
         this.capacidadItems = capacidadItems;
         this.inventario = new ArrayList<>();
     }
+
+    public void usarItem(Item item, CombatienteNordico objetivo) {
+        item.usar(this, objetivo);
+    }
+}
 
 
 
