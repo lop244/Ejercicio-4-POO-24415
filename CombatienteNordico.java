@@ -34,6 +34,11 @@ public abstract class CombatienteNordico {
         }
     }
 
+    @Override
+    public String toString () {
+        
+    }
+
 
     }
 
