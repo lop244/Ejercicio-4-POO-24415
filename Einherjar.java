@@ -7,4 +7,6 @@ public abstract class Einherjar extends CombatienteNordico {
 
     public Einherjar(String nombre, int puntosDeVida, int poderAtaque, int capacidadItems) {
     super(nombre, puntosDeVida, poderAtaque);
+    this.capacidadItems = capacidadItems;
+
 
