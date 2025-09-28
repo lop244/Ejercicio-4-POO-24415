@@ -3,7 +3,11 @@ public class Habilidad {
     private String descripcion;
 
     @Override
-    
+    public void usar(CombatienteNordico ejecutor, CombatienteNordico objetivo) {
+        System.out.println(ejecutor.getNombre() + " usa " + nombre + " sobre " + objetivo.getNombre());
+    }
+
     
 }
+
 
