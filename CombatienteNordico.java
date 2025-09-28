@@ -28,7 +28,7 @@ public abstract class CombatienteNordico {
     }
     public void recibirDaño(int daño) {
         this.puntosDeVida -= daño;
-
+        System.out.println(this.nombre + " recibe " + daño + " puntos de daño.");
 
 
     }
