@@ -11,3 +11,6 @@ public abstract class CriaturaMitologica extends CombatienteNordico {
     public void usarHabilidadPrimaria(CombatienteNordico objetivo) {
         this.habilidadPrimaria.usar(this, objetivo);
     }
+
+    @Override
+    public void tomarTurno
