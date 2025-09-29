@@ -13,4 +13,9 @@ public abstract class CriaturaMitologica extends CombatienteNordico {
     }
 
     @Override
-    public void tomarTurno
+    public void tomarTurno(List<CombatienteNordico> enemigos, List<CombatienteNordico> aliados) {
+        if (!aliados.isEmpty() && aliados.get(0).estaVivo()) {
+            atacar(aliados.get(0));
+        }
+    }
+}
