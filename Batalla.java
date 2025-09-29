@@ -5,4 +5,7 @@ public class Batalla {
     private List<CombatienteNordico> combatientes;
     private Queue<String> logAcciones;
     
+    public void agregarAccionLog(String accion) {
+    }
+
 }
