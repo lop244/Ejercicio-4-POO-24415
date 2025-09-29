@@ -10,4 +10,5 @@ public void tomarTurno(List<CombatienteNordico> enemigos, List<CombatienteNordic
 }
 
 @Override
-public String getMensajeInicio() 
+public String getMensajeInicio() { return "¡" + this.nombre + " levanta su escudo, preparada!"; }
+@Override
