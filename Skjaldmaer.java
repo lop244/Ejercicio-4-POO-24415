@@ -12,3 +12,5 @@ public void tomarTurno(List<CombatienteNordico> enemigos, List<CombatienteNordic
 @Override
 public String getMensajeInicio() { return "¡" + this.nombre + " youre finally awake, referencia skyrim, pelea ya"; }
 @Override
+public String getMensajeDerrota() { return this.nombre + " ha comenzado su camino hacia el valhalla "; }
+}
