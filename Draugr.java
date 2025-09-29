@@ -1,3 +1,6 @@
-public class Draugr {
+public class Draugr extends CriaturaMitologica {
+    public Draugr() {
+        
+    }
     
 }
