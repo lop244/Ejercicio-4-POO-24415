@@ -8,4 +8,6 @@ public abstract class CriaturaMitologica extends CombatienteNordico {
         this.habilidadPrimaria = habilidad;
 }
 
-    public CriaturaMitologica(String nombre)
+    public void usarHabilidadPrimaria(CombatienteNordico objetivo) {
+        this.habilidadPrimaria.usar(this, objetivo);
+    }
