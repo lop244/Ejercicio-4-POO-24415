@@ -7,3 +7,5 @@ public abstract class CriaturaMitologica extends CombatienteNordico {
         super(nombre, vida, ataque);
         this.habilidadPrimaria = habilidad;
 }
+
+    public CriaturaMitologica(String nombre)
