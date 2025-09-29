@@ -13,3 +13,6 @@ public class DraugrLord extends Draugr {
     public void usarHabilidadDeJefe(CombatienteNordico objetivo) {
         this.habilidadDeJefe.usar(this, objetivo);
     }
+
+    @Override
+    public void 
