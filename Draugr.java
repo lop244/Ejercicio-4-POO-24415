@@ -4,8 +4,8 @@ public class Draugr extends CriaturaMitologica {
     }
 
     @Override
-    public String getMensajeInicio() { return "Un demonio aparece... es ujn Draugr!!!"; }
+    public String getMensajeInicio() { return "Un demonio aparece... es un Draugr!!!"; }
     @Override
-    public String getMensajeDerrota() { return  }
+    public String getMensajeDerrota() { return "demonio que de ceniza vino... en ceniza se va..."; }
     
 }
