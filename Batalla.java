@@ -8,4 +8,7 @@ public class Batalla {
     public void agregarAccionLog(String accion) {
     }
 
+    public List<String> getUltimasAcciones() {
+        return null;
+    }
 }
