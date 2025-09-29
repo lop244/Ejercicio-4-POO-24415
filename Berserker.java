@@ -10,4 +10,7 @@ public class Berserker extends Einherjar {
     }
 
     @Override
-    public String getMensajeInicio()
+    public String getMensajeInicio() { return "¡" + this.nombre + " ruge listo para la batalla!"; }
+    @Override
+    public String getMensajeDerrota() { return this.nombre + " cae, pero su furia será recordada..."; }
+}
