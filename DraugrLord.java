@@ -15,4 +15,6 @@ public class DraugrLord extends Draugr {
     }
 
     @Override
-    public void 
+    public void tomarTurno(List<CombatienteNordico> enemigos, List<CombatienteNordico> aliados) {
+    }
+}
