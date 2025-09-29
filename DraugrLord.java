@@ -1,3 +1,5 @@
-public class DraugrLord {
+
+public class DraugrLord extends Draugr {
+    protected Habilidad habilidadDeJefe;
     
 }
