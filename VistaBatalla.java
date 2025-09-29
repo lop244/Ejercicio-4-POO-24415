@@ -10,4 +10,3 @@ public class VistaBatalla {
         System.out.println(mensaje);
     }
 }
-
